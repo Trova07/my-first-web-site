@@ -1,0 +1,56 @@
+a {
+    text-decoration-line:none
+}
+.saw {
+    color:gray;
+}
+.saw_active {
+    color:red;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 3px solid red;
+    margin:0;
+    padding:20px;
+}
+ol{
+    border-right:2px solid red;
+    width:200px;
+    margin:0;
+    padding:20px;
+    padding-left:35px;
+}
+#grid {
+    display:grid;
+    grid-template-columns: 300px 1fr;
+}
+#article {
+    padding: 15px;
+    padding-top: 0; 
+}
+#formula {
+    padding-left:15px;
+}
+#f1{
+    padding-left:15px;
+}
+#f1_champ{
+    padding-top:30px;
+    padding-left:20px;
+}
+#f1_legend{
+    padding-left:20px;
+    padding-top:30px;
+}
+@media(max-width:800px){
+    #grid {
+        display:block;
+    }   
+    ol{
+        border-right:none;
+    }
+    h1 {
+        border-bottom: none;
+    }
+}
